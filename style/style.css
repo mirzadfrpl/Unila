@@ -16,3 +16,26 @@
     width: 100%;
     z-index: 50; /* nilai z-index yang lebih tinggi dari navbar */
 }
+
+.blue {
+    background: linear-gradient(to right, #2F3087, #465abb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 150px #2F3087;
+}
+
+.garis::after {
+    content: "";
+    height: 2px;
+    width: 0;
+    background: #2F3087;
+    color: #2F3087;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s ease-in-out;
+}
+
+.garis:hover::after {
+    width: 99%;
+}
