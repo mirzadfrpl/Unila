@@ -1,3 +1,18 @@
 .hidden {
     display: none;
 }
+
+/* CSS untuk Navbar */
+.navbar {
+    position: relative; /* atau fixed, tergantung kebutuhan */
+    z-index: 10; /* nilai z-index yang lebih rendah dibandingkan pop-up */
+}
+
+/* CSS untuk Pop-up */
+.popup {
+    position: fixed; /* pastikan posisinya fixed untuk tetap di tempat saat scroll */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50; /* nilai z-index yang lebih tinggi dari navbar */
+}
