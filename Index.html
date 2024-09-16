@@ -7,13 +7,15 @@
     <title>SemuaBisa</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
 
     <section class="w-screen h-screen shadow-lg relative">
         <!-- NAVBAR --> <!-- NAVBAR --> <!-- NAVBAR --> <!-- NAVBAR -->
-        <header class="text-gray-600 body-font">
+        <header class="text-gray-600 body-font" data-aos="fade-down">
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <h1 class="ml-3 text-xl font-semibold"><span class="text-[#2F3087]">SemuaBisa</span>.com</span></h1>
                 <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
@@ -23,8 +25,7 @@
                     <a href="#" class="mr-10 hover:text-[#2F3087]">Kontak</a>
                 </nav>
                 <button
-                    class="inline-flex items-center bg-gray-100 border-0 py-2 px-7 focus:outline-none hover:bg-[#2F3087] hover:text-white duration-500 rounded-full text-base mt-4 md:mt-0">Sign
-                    Up
+                    class="inline-flex items-center bg-gray-100 border-0 py-2 px-7 focus:outline-none hover:bg-[#2F3087] hover:text-white hover:shadow-xl duration-500 rounded-full text-base mt-4 md:mt-0">Daftar
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -36,7 +37,7 @@
         <!-- HERO --> <!-- HERO --> <!-- HERO --> <!-- HERO -->
 
         <section class="text-gray-600 body-font">
-            <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+            <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col" data-aos="fade-up">
                 <div class="text-center lg:w-2/3 w-full mt-36">
                     <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Kembangkan Skill Di <span
                             class="text-[#2F3087]">SemuaBisa</span>.com</h1>
@@ -51,7 +52,7 @@
             </div>
         </section>
         <section class="text-gray-600 body-font mb-20 absolute w-full bottom-[-10rem]">
-            <div class="container px-5 py-14 mx-auto bg-white shadow-xl rounded-md">
+            <div class="container px-5 py-14 mx-auto bg-white shadow-xl rounded-lg" data-aos="fade-up">
                 <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
                     <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">Di <span
                         class="text-[#2F3087]">SemuaBisa</span>.com Berbagai Kursus dan <br> Bootcamp Terbaik 100% GRATIS</h1>
@@ -62,5 +63,8 @@
         </section>
     </section>
 
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
