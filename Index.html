@@ -7,7 +7,6 @@
   <title>SemuaBisa</title>
   <link rel="stylesheet" href="style/style.css">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
   <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -54,7 +53,12 @@
         </a>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
-            class="inline-flex text-white bg-[#2F3087] border-0 py-1.5 px-10 focus:outline-none hover:bg-orange-400 hover:shadow-xl duration-500 rounded-full text-lg">Daftar</button>
+            class="inline-flex items-center bg-[#2F3087] border-0 py-2 px-8 focus:outline-none hover:bg-orange-400 hover:shadow-xl text-white duration-500 rounded-full text-base mt-4 md:mt-0">Daftar
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
           <button data-collapse-toggle="navbar-sticky" type="button"
             class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-sticky" aria-expanded="false">
@@ -96,9 +100,9 @@
     <section class="text-gray-600 body-font">
       <div class="container mx-auto flex px-5 py-40 items-center justify-center flex-col" data-aos="fade-up">
         <img class="absolute w-32 right-32 bottom-0" src="Images/ellipes.png" alt="">
-        <img class="absolute w-32 left-20 bottom-64" src="Images/ellipes.png" alt="">
+        <img class="absolute w-32 left-20 bottom-80" src="Images/ellipes.png" alt="">
         <div class="text-center lg:w-2/3 w-full mt-36">
-          <h1 class="title-font sm:text-5xl text-4xl mb- font-bold text-gray-900">Kembangkan Skill Di <span
+          <h1 class="title-font sm:text-5xl text-4xl mb- font-bold mb-3 text-gray-900">Kembangkan Skill Di <span
               class="blue font-bold">SemuaBisa</span><span class="text-orange-400 font-bold">.com</span></h1>
           <p class="mb-10 text-base leading-relaxed">- Menanam Bakat Pemuda Indonesia -</p>
           <div class="flex justify-center">
@@ -111,49 +115,209 @@
         </div>
       </div>
     </section>
-    <section class="text-gray-600 body-font mb-20 absolute w-full bottom-[-10rem]">
+
+    <section class="text-gray-600 body-font absolute w-full bottom-[-7rem]">
       <div class="container px-5 py-14 mx-auto bg-white shadow-2xl rounded-lg">
-        <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
-          <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900" data-aos="fade-up-right">Di <span
-              class="blue font-bold">SemuaBisa</span><span class="text-orange-400 font-bold">.com</span> Berbagai Kursus dan <br>
-            Bootcamp Terbaik <span class="text-4xl font-bold text-[#2F3087]">100%</span>
-            GRATIS</h1>
-            <img src="Images/panah.png" alt="" class="w-52 h-24 mr-20" data-aos="fade-zoom-in">
+        <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto" data-aos="fade-up">
+          <h1 class="flex-grow text-2xl font-medium title-font text-gray-900">Di <span
+              class="blue font-bold">SemuaBisa</span><span class="text-orange-400 font-bold">.com</span> Berbagai Kursus
+            dan Bootcamp Terbaik <span class="text-4xl font-bold text-[#2F3087]">100%</span> GRATIS</h1>
+          <img src="Images/panah.png" alt="" class="w-44 h-20 mr-20">
           <button
-            class="flex-shrink-0 text-white bg-[#2F3087] border-0 py-2 px-8 focus:outline-none hover:bg-orange-400 hover:shadow-xl duration-500 rounded text-lg mt-10 sm:mt-0"
-            data-aos="fade-up-left">Daftar
+            class="flex-shrink-0 text-white bg-[#2F3087] border-0 py-2 px-8 focus:outline-none hover:bg-orange-400 hover:shadow-xl duration-500 rounded text-lg mt-10 sm:mt-0">Daftar
             Sekarang!!</button>
         </div>
       </div>
     </section>
   </section>
 
-  
-  <section class="pt-40">
-    <h1 class="text-center text-4xl font-bold text-black mb-20">Tentang <span class="text-orange-400 font-bold">Kami</span></h1>
-    
-    <div class=" bg-white min-h-screen">
-      <div class="flex flex-col text-black lg:flex-row">
-        <img src="Images/asset-tentang-kami.png" class="max-w-xl" />
-        <div>
-          <p class="w-md px-5 py-1 relative mb-7 border-solid grup">
-            Kenapa Harus
-            <span class="blue font-bold">SemuaBisa</span><span class="text-orange-400 font-bold">.com</span>
-            <span class="absolute bottom-0 left-0 top-0 w-80 border-2 rounded-xl border-gray-400"></span>
-            ?
-          </p>
-          <h1 class="text-4xl font-bold">Karena Dengan <span class="blue">SemuaBisa</span><span class="text-orange-400">.com</span>,</h1>
-          <p class="py-6">
-            Siapapun Bisa Jadi Ahli Teknologi! Kursus online GRATIS ini akan membantumu memahami dunia teknologi mulai dari dasar hingga tingkat lanjut. Dapatkan pengetahuan dan keterampilan baru yang akan membuka peluang baru dalam
-            kariermu.
-          </p>
-          <button class="btn btn-primary border-0 bg-[#2F3087]  text-white hover:bg-orange-400">Lebih Lanjut</button>
+  <!-- TENTANG KAMI --> <!-- TENTANG KAMI --> <!-- TENTANG KAMI --> <!-- TENTANG KAMI -->
+
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-52 md:flex-row flex-col items-center">
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0" data-aos="fade-up-right">
+        <img class="object-cover object-center rounded" alt="hero" src="Images/asset-tentang-kami.png">
+      </div>
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
+        data-aos="fade-up-left">
+        <span
+          class="inline-block py-1 px-2 rounded bg-indigo-50 text-[#2F3087] text-xs font-medium tracking-widest mb-4">Kenapa
+          Harus <span class="blue font-bold">SemuaBisa</span><span class="text-orange-400 font-bold">.com</span></span>
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Karena Dengan <span
+            class="blue font-bold">SemuaBisa</span><span class="text-orange-400 font-bold">.com</span> </h1>
+        <p class="mb-8 leading-relaxed">Siapapun Bisa Jadi Ahli Teknologi! Kursus online GRATIS ini akan membantumu
+          memahami dunia teknologi mulai dari dasar hingga tingkat lanjut. Dapatkan pengetahuan dan keterampilan baru
+          yang akan membuka peluang baru dalam kariermu.</p>
+        <div class="flex justify-center">
+          <button
+            class="flex-shrink-0 text-white bg-[#2F3087] border-0 py-2 px-8 focus:outline-none hover:bg-orange-400 hover:shadow-xl duration-500 rounded text-lg mt-10 sm:mt-0">Pelajari
+            Lebih Lanjut</button>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Tentang Kami^^^^^^^^^^^^^^^^^ -->
+  <!-- KATEGORI --> <!-- KATEGORI --> <!-- KATEGORI --> <!-- KATEGORI -->
+
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 md:flex-row flex-col items-center">
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" data-aos="fade-up-right">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Jelajahi Semua Kategori
+          <br class="hidden lg:inline-block"> <span class="blue font-bold">SemuaBisa</span><span
+            class="text-orange-400 font-bold">.com</span>
+        </h1>
+        <p class="mb-8 w-96 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant
+          cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic.</p>
+        <div class="flex justify-center">
+          <button
+            class="flex-shrink-0 text-white bg-[#2F3087] border-0 py-2 px-8 focus:outline-none hover:bg-orange-400 hover:shadow-xl duration-500 rounded text-lg mt-10 sm:mt-0">Lihat
+            Lengkapnya</button>
+        </div>
+      </div>
+      <div class="container px-5 mx-auto">
+        <div class="flex flex-wrap grid-rows-3">
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full" data-aos="fade-up-left">
+            <a class="block relative h-36 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg text-center font-medium">Front-End</h2>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full" data-aos="fade-up-left">
+            <a class="block relative h-36 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                src="https://seeklogo.com/images/A/azure-sql-logo-3AE930D2AF-seeklogo.com.png">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg text-center font-medium">Back-End</h2>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full" data-aos="fade-up-left">
+            <a class="block relative h-36 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                src="https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1468442513/ntffgniiqfya5tvzbsol.png">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg text-center font-medium">Full Stack</h2>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full" data-aos="fade-up-left">
+            <a class="block relative h-36 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1z0LC70CF3lPE1Xe-Uka4Y5sSlLzrAVHCQg&s">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg text-center font-medium">Machine Learning</h2>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full" data-aos="fade-up-left">
+            <a class="block relative h-36 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Google_Sheets_2020_Logo.svg/800px-Google_Sheets_2020_Logo.svg.png">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg text-center font-medium">Data Analyst</h2>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full" data-aos="fade-up-left">
+            <a class="block relative h-36 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                src="https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/3000/figma-logo-512.png">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg text-center font-medium">UI UX Design</h2>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full" data-aos="fade-up-left">
+            <a class="block relative h-36 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                src="https://logo.com/image-cdn/images/kts928pd/production/182db37de1e6a8181342324363a5b39cdc11c989-346x345.png?w=1080&q=72&fm=webp">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg text-center font-medium">Cyber Security</h2>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full" data-aos="fade-up-left">
+            <a class="block relative h-36 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEpfFQ6JB2Dt3Ggku1PFToaRef4BTp8PViEg&s">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg text-center font-medium">Digital Marketing</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEMESTER --> <!-- SEMESTER --> <!-- SEMESTER --> <!-- SEMESTER -->
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 pt-52 pb-32 mx-auto">
+      <div class="flex flex-wrap w-full mb-20">
+        <div class="lg:w-1/2 w-full mb-6 lg:mb-0" data-aos="fade-up-right">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Ikuti Program Semester Kami</h1>
+          <div class="h-1 w-20 bg-indigo-500 rounded mt-4"></div>
+        </div>
+        <p class="lg:w-1/2 w-full leading-relaxed text-gray-500" data-aos="fade-up-left">Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Voluptates praesentium incidunt iusto fuga numquam inventore quod, eius laborum
+          nulla tempora molestiae debitis ratione qui iste quibusdam accusantium mollitia voluptatibus minus.</p>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="xl:w-1/4 md:w-1/2 p-4" data-aos="fade-up-right">
+          <div class="bg-gray-100 p-6 rounded-lg hover:shadow-xl duration-500">
+            <img class="h-40 rounded w-full object-cover object-center mb-6"
+              src="https://img.freepik.com/free-photo/free-time-students-bachelor-s-campus-life-rhythm-five-friendly-students-are-walking_8353-6408.jpg?t=st=1726547564~exp=1726551164~hmac=523a63ce2ed08a9f0a4b9baa9531643b50fea4d8c84d3be22e393755e8554080&w=2000"
+              alt="content">
+            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SEMESTER 1</h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Basic Python</h2>
+            <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon
+              disrupt edison bulbche.</p>
+          </div>
+        </div>
+        <div class="xl:w-1/4 md:w-1/2 p-4" data-aos="fade-up-right">
+          <div class="bg-gray-100 p-6 rounded-lg hover:shadow-xl duration-500">
+            <img class="h-40 rounded w-full object-cover object-center mb-6"
+              src="https://img.freepik.com/free-photo/full-shot-students-cramming-together_23-2149647137.jpg?t=st=1726547889~exp=1726551489~hmac=244284659e9d774685a4c6a7c9bca4629f28ffe8838f4bc053e4d4d437850c4f&w=2000"
+              alt="content">
+            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SEMESTER 2</h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Front-End Website</h2>
+            <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon
+              disrupt edison bulbche.</p>
+          </div>
+        </div>
+        <div class="xl:w-1/4 md:w-1/2 p-4" data-aos="fade-up-left">
+          <div class="bg-gray-100 p-6 rounded-lg hover:shadow-xl duration-500">
+            <img class="h-40 rounded w-full object-cover object-center mb-6"
+              src="https://img.freepik.com/free-photo/high-angle-students-learning-library_23-2149647043.jpg?t=st=1726547904~exp=1726551504~hmac=4e9ef2c30915020c412481c3871ec767e229870267b4ff22ed7adcb71a018758&w=2000"
+              alt="content">
+            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SEMESTER 3</h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Back-End Website</h2>
+            <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon
+              disrupt edison bulbche.</p>
+          </div>
+        </div>
+        <div class="xl:w-1/4 md:w-1/2 p-4" data-aos="fade-up-left">
+          <div class="bg-gray-100 p-6 rounded-lg hover:shadow-xl duration-500">
+            <img class="h-40 rounded w-full object-cover object-center mb-6"
+              src="https://img.freepik.com/free-photo/full-shot-student-library_23-2149647115.jpg?t=st=1726547942~exp=1726551542~hmac=7d50e2bcef059c27a8721dfd5488dc540bb063afe2be6b65297bd8c4043e6900&w=2000"
+              alt="content">
+            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SEMESTER 4</h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Machine Learning</h2>
+            <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon
+              disrupt edison bulbche.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KURSUS --> <!-- KURSUS --> <!-- KURSUS --> <!-- KURSUS -->
 
   <section class="text-gray-600 body-font">
     <div class="container px-5 mb-10 mx-auto">
@@ -409,20 +573,28 @@
     </div>
   </div>
   </section>
-  <!-- FeddBack -->
+
+  <!-- FEEDBACK --> <!-- FEEDBACK --> <!-- FEEDBACK --> <!-- FEEDBACK -->
 
   <section class="text-gray-600 body-font bg-[#DEDEEC] mt-52">
     <div class="container px-5 py-24 mx-auto">
-      <h1 class="text-center text-3xl text-[#2F3087] font-semibold mb-10 border-2 border-[#2F3087] rounded-full p-3">Feed<span class="text-black">Back</span></h1>
+      <h1 class="text-center text-3xl text-[#2F3087] font-semibold mb-10 border-2 border-[#2F3087] rounded-full p-3">
+        Feed<span class="text-black">Back</span></h1>
       <div class="flex flex-wrap -m-4">
         <div class="p-4 md:w-1/2 w-full">
           <div class="h-full bg-gray-100 p-8 rounded">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
-              <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4"
+              viewBox="0 0 975.036 975.036">
+              <path
+                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+              </path>
             </svg>
-            <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
+            <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra
+              before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom
+              try-hard pabst authentic iceland.</p>
             <a class="inline-flex items-center">
-              <img alt="testimonial" src="https://dummyimage.com/106x106" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+              <img alt="testimonial" src="https://dummyimage.com/106x106"
+                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
               <span class="flex-grow flex flex-col pl-4">
                 <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
                 <span class="text-gray-500 text-sm">UI DEVELOPER</span>
@@ -433,12 +605,18 @@
 
         <div class="p-4 md:w-1/2 w-full">
           <div class="h-full bg-gray-100 p-8 rounded">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
-              <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4"
+              viewBox="0 0 975.036 975.036">
+              <path
+                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+              </path>
             </svg>
-            <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
+            <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra
+              before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom
+              try-hard pabst authentic iceland.</p>
             <a class="inline-flex items-center">
-              <img alt="testimonial" src="https://dummyimage.com/107x107" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+              <img alt="testimonial" src="https://dummyimage.com/107x107"
+                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
               <span class="flex-grow flex flex-col pl-4">
                 <span class="title-font font-medium text-gray-900">Alper Kamu</span>
                 <span class="text-gray-500 text-sm">DESIGNER</span>
@@ -449,12 +627,18 @@
 
         <div class="p-4 md:w-1/2 w-full">
           <div class="h-full bg-gray-100 p-8 rounded">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
-              <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4"
+              viewBox="0 0 975.036 975.036">
+              <path
+                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+              </path>
             </svg>
-            <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
+            <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra
+              before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom
+              try-hard pabst authentic iceland.</p>
             <a class="inline-flex items-center">
-              <img alt="testimonial" src="https://dummyimage.com/107x107" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+              <img alt="testimonial" src="https://dummyimage.com/107x107"
+                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
               <span class="flex-grow flex flex-col pl-4">
                 <span class="title-font font-medium text-gray-900">Alper Kamu</span>
                 <span class="text-gray-500 text-sm">DESIGNER</span>
@@ -465,12 +649,18 @@
 
         <div class="p-4 md:w-1/2 w-full">
           <div class="h-full bg-gray-100 p-8 rounded">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
-              <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4"
+              viewBox="0 0 975.036 975.036">
+              <path
+                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+              </path>
             </svg>
-            <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
+            <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra
+              before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom
+              try-hard pabst authentic iceland.</p>
             <a class="inline-flex items-center">
-              <img alt="testimonial" src="https://dummyimage.com/107x107" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+              <img alt="testimonial" src="https://dummyimage.com/107x107"
+                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
               <span class="flex-grow flex flex-col pl-4">
                 <span class="title-font font-medium text-gray-900">Alper Kamu</span>
                 <span class="text-gray-500 text-sm">DESIGNER</span>
@@ -485,8 +675,6 @@
   <script>
     AOS.init();
   </script>
-
-
 </body>
 
 </html>
