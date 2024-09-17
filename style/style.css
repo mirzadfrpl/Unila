@@ -1,41 +1,41 @@
 .hidden {
-    display: none;
+  display: none;
 }
 
 /* CSS untuk Navbar */
 .navbar {
-    position: relative; /* atau fixed, tergantung kebutuhan */
-    z-index: 10; /* nilai z-index yang lebih rendah dibandingkan pop-up */
+  position: relative; /* atau fixed, tergantung kebutuhan */
+  z-index: 10; /* nilai z-index yang lebih rendah dibandingkan pop-up */
 }
 
 /* CSS untuk Pop-up */
 .popup {
-    position: fixed; /* pastikan posisinya fixed untuk tetap di tempat saat scroll */
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 50; /* nilai z-index yang lebih tinggi dari navbar */
+  position: fixed; /* pastikan posisinya fixed untuk tetap di tempat saat scroll */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50; /* nilai z-index yang lebih tinggi dari navbar */
 }
 
 .blue {
-    background: linear-gradient(to right, #2F3087, #465abb);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0 0 150px #2F3087;
+  background: linear-gradient(to right, #2f3087, #465abb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 150px #2f3087;
 }
 
 .garis::after {
-    content: "";
-    height: 2px;
-    width: 0;
-    background: #2F3087;
-    color: #2F3087;
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    transition: 0.3s ease-in-out;
+  content: "";
+  height: 2px;
+  width: 0;
+  background: #2f3087;
+  color: #2f3087;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s ease-in-out;
 }
 
 .garis:hover::after {
-    width: 99%;
+  width: 99%;
 }
