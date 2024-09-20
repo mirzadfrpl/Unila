@@ -82,6 +82,8 @@
   width: 99%;
 }
 
+/* ANIMASI GAMBAR */ /* ANIMASI GAMBAR */ /* ANIMASI GAMBAR */ /* ANIMASI GAMBAR */
+
 #pembungkus {
   background: transparent;
   height: 100%;
@@ -123,4 +125,79 @@
 #pembungkus:hover p {
   bottom: 40%;
   opacity: 1;
+}
+
+/* MENTOR */ /* MENTOR */ /* MENTOR */ /* MENTOR */
+
+.ourteam {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.dev-cards {
+  display: flex;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dev-card1, .dev-card2, .dev-card3 {
+  flex-direction: column;
+  background: white;
+  padding: 20px;
+  margin: 0 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: #2F3087 0.3px solid;
+  transition: 0.3s ease-in-out;
+}
+
+.dev-card1:hover, .dev-card2:hover, .dev-card3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px -5px #2F3087;
+}
+
+.dev-img {
+  width: 80px;
+  height: 80px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 auto -70px;
+  position: relative;
+  top: -60px;
+  box-shadow: 0 0 15px -7px #2F3087;
+  overflow: hidden;
+}
+
+.dev-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dev-card1 h3, .dev-card2 h3, .dev-card3 h3 {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+
+.dev-card1 p, .dev-card2 p, .dev-card3 p {
+  font-size: 14px;
+  color: #666;
+  margin: 20px 0 25px;
+  line-height: 1.5;
+}
+
+.dev-card1 h4, .dev-card2 h4, .dev-card3 h4 {
+  font-size: 1em;
+  color: #2F3087;
+  font-weight: normal;
+}
+
+.background-linear{
+  background-image: linear-gradient(rgba(47, 48, 135, 0.85), rgba(47, 48, 135, 0.85)), url("https://img.freepik.com/free-photo/programer-sitting-desk-with-multiple-screens-running-code-talking-with-colleague-about-artificial-intelligence-algorithm-software-developers-doing-innovative-artificial-intelligence-project_482257-40606.jpg?t=st=1726813273~exp=1726816873~hmac=119d53a7cb29d8b24d763c21d15e89cc952067a8b5c157c98c388be3f2cdd1a3&w=1800");
+  background-size: cover;
+  background-position: center;
 }
